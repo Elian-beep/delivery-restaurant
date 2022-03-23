@@ -13,7 +13,7 @@
   <!-- Bootstrap - Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <!-- CSS MAIN -->
-  <link rel="stylesheet" href="../main.css">
+  <link rel="stylesheet" href="../Styles/main.css">
   <!-- CSS DO NAVBAR -->
   <link rel="stylesheet" href="navbar.css">
   <!-- CSS DO SLIDER -->
@@ -25,7 +25,7 @@
   <!-- CSS DO CARDAPIO -->
   <link rel="stylesheet" href="cardapio.css">
   <!-- CSS DO FOOTER -->
-  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="../Styles/footer.css">
 
 
   <title>Churrascaria Delivery</title>

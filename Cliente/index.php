@@ -1,3 +1,5 @@
+<!-- LOGIN -->
+
 <!doctype html>
 <html lang="pt-br">
 
@@ -34,7 +36,7 @@
     </div>
 
     <div class="right-login">
-      <form action="cardapio/cardapio.php" class="card-login">
+      <form action="Cardapio/cardapio.php" class="card-login">
 
         <h1>Login</h1>
 
@@ -49,7 +51,7 @@
         </div>
         <button class="btn-login">Login</button>
         <div class="links-off">
-          <a href="">Ainda não sou cliente</a>
+          <a href="Cadastro/cadastro.php">Ainda não sou cliente</a>
           <a href="">Esqueci minha senha</a>
         </div>
 
