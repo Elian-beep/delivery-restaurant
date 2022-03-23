@@ -34,7 +34,7 @@
     </div>
 
     <div class="right-login">
-      <form action="../cardapio/index.html" class="card-login">
+      <form action="../cardapio/cardapio.php" class="card-login">
 
         <h1>Login</h1>
 

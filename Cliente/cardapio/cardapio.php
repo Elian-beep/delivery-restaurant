@@ -68,11 +68,7 @@
             <a href="#" class="nav-link">Pedir pelo Whatsapp</a>
           </li>
           <li class="nav-item">
-<<<<<<< HEAD:Cliente/cardapio/cardapio.php
             <a href="../Login/index.php" class="nav-link">Sair</a>
-=======
-            <a href="../Login/index.html" class="nav-link">Sair</a>
->>>>>>> db024b07395d293e86c26bb8f672186a7dcc02e8:Cliente/cardapio/index.html
           </li>
         </ul>
       </div>
