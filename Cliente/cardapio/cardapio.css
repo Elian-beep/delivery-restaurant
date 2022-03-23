@@ -1,0 +1,42 @@
+#cardapio-items{
+    margin-top: 20px;
+}
+
+#cardapio-items .acompanhamento-mobile{     /*Escondendo o botão dos complementos*/
+    display: none;                          
+}
+
+#cardapio-items .acompanhamento-desktop{    /*Exibindo os complementos em texto*/
+    display: block;
+}
+
+.cardapio-item{
+    display: flex;                          /*Permite os itens ficarem um ao lado do outro*/
+    align-items: center;
+    justify-content: center;
+}
+
+.cardapio-item img{
+    width: 100px;
+    height: 80px;
+}
+
+.cardapio-info{
+    flex: 1;    
+    color: #351700;                            /*Centraliza os elementos ao lado do outro*/
+}
+
+@media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
+    .cardapio-item img{
+        width: 100px;
+        height: 75px;
+    }
+
+    #cardapio-items .acompanhamento-desktop{/*Exibindo o botão dos complementos*/
+        display: none;
+    }
+
+    #cardapio-items .acompanhamento-mobile{/*Escondendo os complementos em texto*/
+        display: block;
+    }
+}

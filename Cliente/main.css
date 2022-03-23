@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+/* SESSÃO DAS CORES PRINCIPAIS */
+
+.color-A01{background: #f8d5af;}
+
+.color-A02{background: #bf8c56;}
+
+.color-A03{background: #351700;}
+
+/* SESSÃO DAS CORES LIGHT -> DARK */
+
+.color-B01{background: #F2F2F2;}
+
+.color-B02{background: #F7F8E0;}
+
+.color-B03{background: #424242;}
+
+.color-B04{background: #00000056;}
+
+/* SESSÃO DAS CORES PRINCIPAIS EM FONTES */
+
+.font-color-A01{color: #f8d5af;}
+
+.font-color-A02{color: #bf8c56;}
+
+.font-color-A03{color: #351700;}
+
+/* SESSÃO DAS CORES LIGHT -> DARK EM FONTES */
+
+.font-color-B01{color: #F2F2F2;}
+
+.font-color-B02{color: #F7F8E0;}
+
+.font-color-B03{color: #424242;}
+
+.font-color-B04{color: #00000056;}

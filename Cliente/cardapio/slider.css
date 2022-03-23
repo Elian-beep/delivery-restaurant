@@ -1,0 +1,74 @@
+#slider{ /*DIV GERAL DO SLIDER*/
+    margin-top: 8em;            /*Aplica uma margem exterma em cima da div*/
+    margin-bottom: 4em;         /*Aplica uma margem externa abaixo da div*/
+    box-shadow: 0px 10px 40px #00000056; /*Uma sombra indo apenas no eixo y para baixo com um blur*/
+}
+
+#slider img{
+    width: 40vw;                /*Tamanho horizontal da imagem em relação ao viewport*/
+    height: 60vh;               /*Tamanho vertical da imagem em relação ao viewport*/
+    border-radius: 5px;
+}
+
+#slider .carousel-caption{
+    bottom: 2em;
+    font-size: 20pt;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 6px;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i{ /*Botões laterais de controle*/
+    color: #111;
+    font-size: 3em;
+}
+
+.carousel-control-prev i:hover,
+.carousel-control-next i:hover{
+    background: #222;
+    color: aliceblue;
+    transition: 0.8s;
+    border-radius: 8px;
+}
+
+/*Permitir deixar os icones mais acessos, menos apagados (tanto os btns de avançar quanto os indicadores)*/
+.carousel-indicators [data-bs-target]{
+    background-color: aliceblue;
+    opacity: 0.8;
+}
+
+.carousel-indicators .active{
+    background-color: #000;
+}
+
+@media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
+    #slider{
+        margin-bottom: 2em;
+    }
+
+    #slider img{
+        width: 20vw;                /*Tamanho horizontal da imagem em relação ao viewport*/
+        height: 30vh;               /*Tamanho vertical da imagem em relação ao viewport*/
+        border-radius: 5px;
+    }
+
+    #slider .carousel-caption{
+        bottom: 1em;                   /*Subindo um pouco os elementos do capitulo*/
+    }
+
+    #slider .carousel-caption p{
+        font-size: 0.6em;
+        text-shadow: #000;
+    }
+
+    .carousel-indicators{
+        bottom: 1em;
+    }
+
+    .carousel-control-prev i,
+    .carousel-control-next i{ /*Botões laterais de controle*/
+        display: none;
+    }
+}
