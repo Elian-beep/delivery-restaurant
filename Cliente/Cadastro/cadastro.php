@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="shortcut icon" href="../../assets/logomarca-restaurante2.svg" type="image/x-icon">
+
   <!-- Bootstrap - JavaScript Bundle com Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <!-- Bootstrap - CSS -->
@@ -16,12 +18,21 @@
   <link rel="stylesheet" href="../Styles/main.css">
   <!-- CSS DO FOOTER -->
   <link rel="stylesheet" href="../Styles/footer.css">
+  <!-- CSS DOS TITULOS -->
+  <link rel="stylesheet" href="titulos.css">
 
 
   <title>Churrascaria Delivery</title>
 </head>
 
 <body>
+
+  <!-- INICIO: TITULOS INICIAIS -->
+  <div class="container" id="titulos">
+    <h1>Cadastre-se aqui</h1>
+    <h4>Crie um cadastro para salvar seu endereço e facilitar na hora do pedido.</h4>
+  </div>
+  <!-- FIM: TITULOS INICIAIS -->
 
   <!-- INICIO: FOOTER -->
   <div class="container-fluid color-A01" id="footer">
@@ -86,8 +97,8 @@
 
             <div class="col-12 col-md-3">
               <p>
-                <a href="" class="btn">Github</a><i class="bi bi-github"></i>
-                <a href="" class="btn">Instagram</a><i class="bi bi-instagram"></i>
+                <a href="https://github.com/Elian-beep" class="btn">Github</a><i class="bi bi-github"></i>
+                <a href="https://www.instagram.com/e_lianb/" class="btn">Instagram</a><i class="bi bi-instagram"></i>
                 <a href="" class="btn">Linkedin</a><i class="bi bi-linkedin"></i>
               </p>
             </div>
@@ -97,54 +108,6 @@
       </center>
     </div>
   </div><!-- FIM: FOOTER -->
-
-
-  <!-- INICIO: MODAL DA LISTA DE PEDIDOS -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-
-        <!-- Header Modal -->
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Meus pedidos</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-
-        <!-- Body Modal -->
-        <div class="modal-body">
-
-          <div class="pedidos">
-
-            <p>
-              Filé Mignon <span>R$ 65,00</span>
-            </p>
-
-            <p>
-              Filé Mignon <span>R$ 65,00</span>
-            </p>
-
-            <p>
-              Misto <span>R$ 12,00</span>
-            </p>
-
-          </div>
-
-        </div>
-
-        <!-- Footer Modal -->
-        <div class="modal-footer">
-          <p>
-            Total: R$ 142,00
-          </p>
-          <form action="">
-            <button type="button" class="btn btn-primary">Fechar Pedido</button>
-          </form>
-        </div>
-
-      </div>
-    </div>
-  </div><!-- FIM: MODAL DA LISTA DE PEDIDOS -->
-
 
 </body>
 

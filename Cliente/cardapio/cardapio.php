@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="shortcut icon" href="../../assets/logomarca-restaurante2.svg" type="image/x-icon">
+
   <!-- Bootstrap - JavaScript Bundle com Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <!-- Bootstrap - CSS -->
@@ -20,7 +22,7 @@
   <link rel="stylesheet" href="slider.css">
   <!-- CSS DO CABEÇALHO -->
   <link rel="stylesheet" href="cabecalho.css">
-  <!-- CSS DO CARDAPIO -->
+  <!-- CSS DA AREA SCROLL DO CARDAPIO -->
   <link rel="stylesheet" href="area-cardapio-scroll.css">
   <!-- CSS DO CARDAPIO -->
   <link rel="stylesheet" href="cardapio.css">
@@ -580,8 +582,8 @@
 
             <div class="col-12 col-md-3">
               <p>
-                <a href="" class="btn">Github</a><i class="bi bi-github"></i>
-                <a href="" class="btn">Instagram</a><i class="bi bi-instagram"></i>
+                <a href="https://github.com/Elian-beep" class="btn">Github</a><i class="bi bi-github"></i>
+                <a href="https://www.instagram.com/e_lianb/" class="btn">Instagram</a><i class="bi bi-instagram"></i>
                 <a href="" class="btn">Linkedin</a><i class="bi bi-linkedin"></i>
               </p>
             </div>
