@@ -38,66 +38,74 @@
   <!-- INICIO: FORMULARIO DE CADASTRO -->
   <div class="container" id="form-cadastro">
 
-    <hr>
-    <h2>Dados de usuário</h2> <!-- ------------------------------------------------------------------------ -->
+    <!-- FORMULÁRIO ESQUERDO (DADOS DE USUÁRIO) -->
+    <div class="left-form">
+      <h2>Dados de usuário</h2>
 
-    <div class="mb-3">
-      <!-- NOME -->
-      <label class="form-label">Nome e Sobrenome</label>
-      <input type="text" class="form-control" placeholder="Digite seu nome e sobrenome aqui" require>
-    </div>
-
-    <div class="mb-3">
-      <!-- TELEFONE -->
-      <label class="form-label">Telefone</label>
-      <input type="text" class="form-control" placeholder="Digite seu número de telefone aqui" require>
-    </div>
-
-    <div class="mb-3">
-      <!-- EMAIL -->
-      <label class="form-label">Nome e Sobrenome</label>
-      <input type="email" class="form-control" placeholder="Digite seu email aqui">
-    </div>
-
-    <div class="row">
-      <!-- SENHA -->
-      <label class="form-label">Senha</label>
-      <div class="col">
-        <input type="password" class="form-control" placeholder="Crie sua senha" aria-label="First name">
+      <div class="mb-3">
+        <!-- NOME -->
+        <label class="form-label">Nome e Sobrenome</label>
+        <input type="text" class="form-control" placeholder="Digite seu nome e sobrenome aqui" require>
       </div>
-      <div class="col">
-        <input type="password" class="form-control" placeholder="Repita sua senha" aria-label="Last name">
+
+      <div class="mb-3">
+        <!-- TELEFONE -->
+        <label class="form-label">Telefone</label>
+        <input type="text" class="form-control" placeholder="Digite seu número de telefone aqui" require>
       </div>
-    </div>
 
-    <hr>
-    <h2>Endereço</h2> <!-- ------------------------------------------------------------------------ -->
-
-    <div class="mb-3">
-      <!-- BAIRRO -->
-      <label class="form-label">Bairro</label>
-      <input type="text" class="form-control" placeholder="Digite o nome do seu bairro aqui" require>
-    </div>
-
-    <div class="mb-3">
-      <!-- RUA -->
-      <label class="form-label">Rua</label>
-      <input type="text" class="form-control" placeholder="Digite o nome da sua rua aqui" require>
-    </div>
-
-    <div class="row">
-      <!-- NÚMERO E COMPLEMENTO -->
-      <div class="col">
-        <label class="form-label">Número</label>
-        <input type="number" class="form-control" placeholder="Digite o número da casa aqui" require>
+      <div class="mb-3">
+        <!-- EMAIL -->
+        <label class="form-label">Nome e Sobrenome</label>
+        <input type="email" class="form-control" placeholder="Digite seu email aqui">
       </div>
-      <div class="col">
-        <label class="form-label">Complemento</label>
-        <input type="text" class="form-control" placeholder="Facilite a busca pelo endereço informando um ponto de referência próximo">
+
+      <div class="row">
+        <!-- SENHA -->
+        <label class="form-label">Senha</label>
+        <div class="col">
+          <input type="password" class="form-control" placeholder="Crie sua senha" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="password" class="form-control" placeholder="Repita sua senha" aria-label="Last name">
+        </div>
       </div>
     </div>
 
-  </div><!-- FIM: FORMULARIO DE CADASTRO -->
+    <div class="right-form">
+      <h2>Endereço</h2>
+
+      <div class="mb-3">
+        <!-- BAIRRO -->
+        <label class="form-label">Bairro</label>
+        <input type="text" class="form-control" placeholder="Digite o nome do seu bairro aqui" require>
+      </div>
+
+      <div class="mb-3">
+        <!-- RUA -->
+        <label class="form-label">Rua</label>
+        <input type="text" class="form-control" placeholder="Digite o nome da sua rua aqui" require>
+      </div>
+
+      <div class="col-12">
+        <div class="row">
+          <!-- NÚMERO E COMPLEMENTO -->
+          <div class="col-3">
+            <label class="form-label">Número</label>
+            <input type="number" class="form-control" require>
+          </div>
+          <div class="col-9">
+            <label class="form-label">Complemento</label>
+            <input type="text" class="form-control" placeholder="Ponto de referência próximo">
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+  <!-- FIM: FORMULARIO DE CADASTRO -->
 
   <!-- INICIO: FOOTER -->
   <div class="container-fluid color-A01" id="footer">
