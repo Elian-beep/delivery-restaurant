@@ -5,3 +5,7 @@
     justify-content: center;
     align-items: center;
 }
+
+#titulos p{
+    text-align: center;
+}

@@ -29,8 +29,8 @@
 
   <!-- INICIO: TITULOS INICIAIS -->
   <div class="container" id="titulos">
-    <h1>Cadastre-se aqui</h1>
-    <h4>Crie um cadastro para salvar seu endereço e facilitar na hora do pedido.</h4>
+    <h1 class="font-color-B04">Cadastre-se aqui</h1>
+    <p>Crie um cadastro para salvar seu endereço e facilitar na hora do pedido.</p>
   </div>
   <!-- FIM: TITULOS INICIAIS -->
 
