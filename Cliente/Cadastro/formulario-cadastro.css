@@ -1,3 +1,23 @@
 #form-cadastro{
     margin-top: 2em;
 }
+
+#form-cadastro hr{
+    display: none;
+}
+
+#right-form{
+    border-left: 1px solid #424242;
+}
+
+@media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
+    #right-form{
+        margin-top: 1em;
+        border-left: 0;
+    }
+
+    #form-cadastro hr{
+        display: block;
+    }
+
+}
