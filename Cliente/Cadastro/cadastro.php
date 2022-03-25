@@ -27,106 +27,98 @@
   <title>Churrascaria Delivery</title>
 </head>
 
-<body>
+<body class="color-A03">
 
   <!-- INICIO: TITULOS INICIAIS -->
-  <div class="container" id="titulos">
+  <div class="container font-color-B01" id="titulos">
+
     <h1>Cadastre-se aqui</h1>
-    <p>Crie um cadastro para salvar seu endereço e facilitar na hora do pedido.</p>
+    <p>Crie um cadastro para salvar suas informações e facilitar na hora do pedido.</p>
   </div><!-- FIM: TITULOS INICIAIS -->
 
   <!-- INICIO: FORMULARIO DE CADASTRO -->
-  <form action="../cardapio/cardapio.php">
-    <div class="container col-12" id="form-cadastro">
-      <div class="row">
+  <div class="container">
+    <form action="../cardapio/cardapio.php" class="form-cadastro">
+      <div class="col-12">
+        <div class="row">
 
-        <!-- FORMULÁRIO ESQUERDO (DADOS DE USUARIO) -->
-        <div class="col-12 col-md-6" id="left-form">
-          <h2>Dados de usuário</h2>
-          <div class="mb-3">
-            <!-- NOME -->
-            <label class="form-label">Nome e Sobrenome</label>
-            <input type="text" class="form-control" placeholder="Digite seu nome e sobrenome aqui" require>
-          </div>
-
-          <div class="mb-3">
-            <!-- TELEFONE -->
-            <label class="form-label">Telefone</label>
-            <input type="text" class="form-control" placeholder="Digite seu número de telefone aqui" require>
-          </div>
-
-          <div class="mb-3">
-            <!-- EMAIL -->
-            <label class="form-label">Nome e Sobrenome</label>
-            <input type="email" class="form-control" placeholder="Digite seu email aqui">
-          </div>
-
-          <div class="row">
-            <!-- SENHA -->
-            <label class="form-label">Senha</label>
-            <div class="col">
-              <input type="password" class="form-control" placeholder="Crie sua senha" aria-label="First name">
+          <!-- FORMULÁRIO ESQUERDO (DADOS DE USUARIO) -->
+          <div class="col-12 col-md-6" id="left-form">
+            <h2>Dados de usuário</h2>
+            <div class="mb-3 text-field">
+              <!-- NOME -->
+              <label class="form-label">Nome e Sobrenome</label>
+              <input type="text" placeholder="Digite seu nome e sobrenome aqui" required>
             </div>
-            <div class="col">
-              <input type="password" class="form-control" placeholder="Repita sua senha" aria-label="Last name">
+
+            <div class="mb-3 text-field">
+              <!-- TELEFONE -->
+              <label class="form-label">Telefone</label>
+              <input type="text" placeholder="Digite seu número de telefone aqui" required>
             </div>
-          </div>
-        </div>
 
-        <!-- FORMULÁRIO DIREITO (DADOS DE ENDEREÇO) -->
-        <div class="col-12 col-md-6" id="right-form">
-          <hr>
-          <h2>Endereço</h2>
-          <div class="mb-3">
-            <!-- BAIRRO -->
-            <label class="form-label">Bairro</label>
-            <input type="text" class="form-control" placeholder="Digite o nome do seu bairro aqui" require>
-          </div>
+            <div class="mb-3 text-field">
+              <!-- EMAIL -->
+              <label class="form-label">E-mail</label>
+              <input type="email" placeholder="Digite seu email aqui">
+            </div>
 
-          <div class="mb-3">
-            <!-- RUA -->
-            <label class="form-label">Rua</label>
-            <input type="text" class="form-control" placeholder="Digite o nome da sua rua aqui" require>
-          </div>
-
-          <!-- NÚMERO E COMPLEMENTO -->
-          <div class="col-12">
             <div class="row">
-              <div class="col-3">
-                <label class="form-label">Número</label>
-                <input type="number" class="form-control" require>
+              <!-- SENHA -->
+              <label class="form-label">Senha</label>
+              <div class="col text-field">
+                <input type="password" placeholder="Crie sua senha" aria-label="First name">
               </div>
-              <div class="col-9">
-                <label class="form-label">Complemento</label>
-                <input type="text" class="form-control" placeholder="Ponto de referência próximo">
+              <div class="col text-field">
+                <input type="password" placeholder="Repita sua senha" aria-label="Last name">
               </div>
             </div>
           </div>
 
-          <div class="col-12 mt-5">
-            <div class="row">
+          <!-- FORMULÁRIO DIREITO (DADOS DE ENDEREÇO) -->
+          <div class="col-12 col-md-6" id="right-form">
+            <hr>
+            <h2>Endereço</h2>
+            <div class="mb-3 text-field">
+              <!-- BAIRRO -->
+              <label class="form-label">Bairro</label>
+              <input type="text" placeholder="Digite o nome do seu bairro aqui" required>
+            </div>
 
-              <div class="col-4">
-                <input type="submit" class="btn btn-primary" value="Cadastrar" />
+            <div class="mb-3 text-field">
+              <!-- RUA -->
+              <label class="form-label">Rua</label>
+              <input type="text" placeholder="Digite o nome da sua rua aqui" required>
+            </div>
+
+            <!-- NÚMERO E COMPLEMENTO -->
+            <div class="col-12">
+              <div class="row">
+                <div class="col-3 text-field">
+                  <label class="form-label">Número</label>
+                  <input type="number" required>
+                </div>
+                <div class="col-9 text-field">
+                  <label class="form-label">Complemento</label>
+                  <input type="text" placeholder="Ponto de referência próximo">
+                </div>
               </div>
+            </div>
 
-              <div class="col-4">
-                <input type="hidden" class="btn btn-primary" value="Cadastrar" />
-              </div>
-
-              <div class="col-4">
-                <a href="../" class="btn btn-danger">Voltar</a>
-              </div>
-
+            <div class="col-12 mt-2">
+              <input type="submit" class="btn btn-primary" value="Cadastrar" />
             </div>
           </div>
 
         </div>
 
       </div>
+    </form><!-- FIM: FORMULARIO DE CADASTRO -->
+  </div>
 
-    </div>
-  </form><!-- FIM: FORMULARIO DE CADASTRO -->
+  <div class="container mt-5">
+    <a href="../" class="btn btn-danger">Voltar</a>
+  </div>
 
 
   <!-- INICIO: FOOTER -->
@@ -207,3 +199,7 @@
 </body>
 
 </html>
+
+<!-- <div class="col-6">
+  <a href="../" class="btn btn-danger">Voltar</a>
+</div> -->

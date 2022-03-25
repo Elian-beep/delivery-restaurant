@@ -1,13 +1,57 @@
-#form-cadastro{
+.form-cadastro{
     margin-top: 2em;
+    background: #F7BE81;
+    
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056; /*Uma sombra indo apenas no eixo y para baixo com um blur*/
+    padding: 30px 35px;
 }
 
-#form-cadastro hr{
+.card-login h2{
+    color: #000;
+    font-weight: 800; /*Peso da fonte, grossevidade*/
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.form-cadastro hr{
     display: none;
 }
 
 #right-form{
     border-left: 1px solid #424242;
+}
+
+.text-field{ /*Componentes de campo do formulario*/
+    width: 100%;
+    display: flex;
+    flex-direction: column; /*Ele inverte os valores de justify-content (passar a ser y) e align-items (passa a ser x)*/
+    align-items: flex-start; /*Posiciona no começo do eixo x*/
+    justify-content: center;
+    /* margin: 10px 0px; Aplica uma margem externa apenas no eixo y */
+    margin-bottom: 0.6em;
+}
+
+.text-field input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #351700;
+    color: #F7F8E0;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056; /*Uma sombra indo apenas no eixo y para baixo com um blur*/
+    outline: none; /*Retira uma caixa de seleção*/
+    box-sizing: border-box; /*Cria um colisor para o elemento não ultrapassar os limites da div*/
+}
+
+.text-field label{
+    color: #000;
+    margin-bottom: 10px; /*Margem externa de 10px*/
+}
+
+.text-field input::placeholder{
+    color: #f0ffff94;
 }
 
 @media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
@@ -16,7 +60,7 @@
         border-left: 0;
     }
 
-    #form-cadastro hr{
+    .form-cadastro hr{
         display: block;
     }
 
