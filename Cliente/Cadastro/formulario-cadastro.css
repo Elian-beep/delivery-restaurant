@@ -54,6 +54,28 @@
     color: #f0ffff94;
 }
 
+.btn-cadastrar{
+    width: 50%;
+    padding: 16px 0px;
+    margin: 5px 5px 0.6em 5px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-weight: 800;
+    letter-spacing: 3px; /*Aplica um espaçamento entre o texto*/
+    color: #151515;
+    background: #F2F2F2;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #000; /*O 4º valor é um "spreadding" */
+}
+
+.btn-cadastrar:hover{
+    background: #f8d5af;
+    transition: 0.5s;
+}
+
 @media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
     #right-form{
         margin-top: 1em;

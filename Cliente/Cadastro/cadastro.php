@@ -106,7 +106,7 @@
             </div>
 
             <div class="col-12 mt-2">
-              <input type="submit" class="btn btn-primary" value="Cadastrar" />
+              <button class="btn-cadastrar">Cadastrar</button>
             </div>
           </div>
 
