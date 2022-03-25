@@ -44,7 +44,10 @@
 
           <!-- FORMULÁRIO ESQUERDO (DADOS DE USUARIO) -->
           <div class="col-12 col-md-6" id="left-form">
-            <h2>Dados de usuário</h2>
+            <div class="titulo-form">
+              <h2>Dados de usuário</h2>
+            </div>
+
             <div class="mb-3 text-field">
               <!-- NOME -->
               <label class="form-label">Nome e Sobrenome</label>
@@ -78,7 +81,9 @@
           <!-- FORMULÁRIO DIREITO (DADOS DE ENDEREÇO) -->
           <div class="col-12 col-md-6" id="right-form">
             <hr>
-            <h2>Endereço</h2>
+            <div class="titulo-form">
+              <h2>Endereço</h2>
+            </div>
             <div class="mb-3 text-field">
               <!-- BAIRRO -->
               <label class="form-label">Bairro</label>
@@ -106,7 +111,7 @@
             </div>
 
             <div class="col-12 mt-2">
-              <button class="btn-cadastrar">Cadastrar</button>
+              <button class="btn btn-cadastrar">Cadastrar</button>
             </div>
           </div>
 
