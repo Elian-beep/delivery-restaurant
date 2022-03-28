@@ -21,8 +21,10 @@
 
 .carousel-control-prev i,
 .carousel-control-next i{ /*Botões laterais de controle*/
-    color: #111;
+    color: #222;
+    background: aliceblue;
     font-size: 3em;
+    border-radius: 8px;
 }
 
 .carousel-control-prev i:hover,

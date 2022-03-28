@@ -36,6 +36,10 @@
     <p>Crie um cadastro para salvar suas informações e facilitar na hora do pedido.</p>
   </div><!-- FIM: TITULOS INICIAIS -->
 
+  <div class="container font-color-B01">
+    <p>Os campos que contém <span class="font-color-C01">*</span> devem ser preenchidos para a validação do cadastro.</p>
+  </div>
+
   <!-- INICIO: FORMULARIO DE CADASTRO -->
   <div class="container">
     <form action="../cardapio/cardapio.php" class="form-cadastro">
@@ -50,30 +54,30 @@
 
             <div class="mb-3 text-field">
               <!-- NOME -->
-              <label class="form-label">Nome e Sobrenome</label>
-              <input type="text" placeholder="Digite seu nome e sobrenome aqui" required>
+              <label class="form-label">Nome e Sobrenome <span class="font-color-C01">*</span></label>
+              <input type="text" required>
             </div>
 
             <div class="mb-3 text-field">
               <!-- TELEFONE -->
-              <label class="form-label">Telefone</label>
-              <input type="text" placeholder="Digite seu número de telefone aqui" required>
+              <label class="form-label">Telefone <span class="font-color-C01">*</span></label>
+              <input type="text" required>
             </div>
 
             <div class="mb-3 text-field">
               <!-- EMAIL -->
               <label class="form-label">E-mail</label>
-              <input type="email" placeholder="Digite seu email aqui">
+              <input type="email">
             </div>
 
             <div class="row">
               <!-- SENHA -->
-              <label class="form-label">Senha</label>
+              <label class="form-label">Senha <span class="font-color-C01">*</span></label>
               <div class="col text-field">
-                <input type="password" placeholder="Crie sua senha" aria-label="First name">
+                <input type="password" aria-label="First name" required>
               </div>
               <div class="col text-field">
-                <input type="password" placeholder="Repita sua senha" aria-label="Last name">
+                <input type="password" aria-label="Last name" required>
               </div>
             </div>
           </div>
@@ -86,26 +90,26 @@
             </div>
             <div class="mb-3 text-field">
               <!-- BAIRRO -->
-              <label class="form-label">Bairro</label>
-              <input type="text" placeholder="Digite o nome do seu bairro aqui" required>
+              <label class="form-label">Bairro <span class="font-color-C01">*</span></label>
+              <input type="text" required>
             </div>
 
             <div class="mb-3 text-field">
               <!-- RUA -->
-              <label class="form-label">Rua</label>
-              <input type="text" placeholder="Digite o nome da sua rua aqui" required>
+              <label class="form-label">Rua <span class="font-color-C01">*</span></label>
+              <input type="text" required>
             </div>
 
             <!-- NÚMERO E COMPLEMENTO -->
             <div class="col-12">
               <div class="row">
                 <div class="col-3 text-field">
-                  <label class="form-label">Número</label>
+                  <label class="form-label">Número <span class="font-color-C01">*</span></label>
                   <input type="number" required>
                 </div>
                 <div class="col-9 text-field">
                   <label class="form-label">Complemento</label>
-                  <input type="text" placeholder="Ponto de referência próximo">
+                  <input type="text">
                 </div>
               </div>
             </div>
