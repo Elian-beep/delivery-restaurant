@@ -95,19 +95,19 @@
         <div class="carousel-inner" id="slider-inner">
 
           <div class="carousel-item active ">
-            <img src="../../assets/churras-1.jpg" alt="churras 1" class="d-block w-100">
+            <img src="../../assets/churras-1.jpg" alt="churras 1" class="d-block w-100" loading="lazy">
             <div class="carousel-caption">
               <p>Não me leve a sério, me leve para almoçar na Churrascaria Kihan!</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../../assets/churras-2.jpg" alt="churras 2" class="d-block w-100">
+            <img src="../../assets/churras-2.jpg" alt="churras 2" class="d-block w-100" loading="lazy">
             <div class="carousel-caption">
               <p>Aqui podemos até passar do ponto, mas a carne nunca!</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../../assets/churras-3.jpg" alt="churras 3" class="d-block w-100">
+            <img src="../../assets/churras-3.jpg" alt="churras 3" class="d-block w-100" loading="lazy">
             <div class="carousel-caption">
               <p>Não deixe para amanhã o que você pode comer hoje!</p>
             </div>
@@ -178,9 +178,11 @@
                       Complemento
                     </button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                      </p>
+                      <div class="container">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <p class="acompanhamento-desktop">
@@ -190,7 +192,7 @@
 
                 <div class="cardapio-info">
                   <p>R$: 65,00</p>
-                  <button class="btn btn-success btn-sm">+</button>
+                  <button class="btn btn-adicionar">+</button>
                 </div>
 
               </div>
@@ -207,7 +209,7 @@
               <div class="row">
 
                 <div class="cardapio-info">
-                  <img src="../../assets/prato2.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 2">
+                  <img src="../../assets/prato2.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 2" loading="lazy">
                 </div>
 
                 <div class="cardapio-info">
@@ -229,7 +231,7 @@
 
                 <div class="cardapio-info">
                   <p>R$: 35,00</p>
-                  <button class="btn btn-success btn-sm">+</button>
+                  <button class="btn btn-adicionar">+</button>
                 </div>
 
               </div>
@@ -246,7 +248,7 @@
               <div class="row">
 
                 <div class="cardapio-info">
-                  <img src="../../assets/prato3.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 3">
+                  <img src="../../assets/prato3.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 3" loading="lazy">
                 </div>
 
                 <div class="cardapio-info">
@@ -268,7 +270,7 @@
 
                 <div class="cardapio-info">
                   <p>R$: 40,00</p>
-                  <button class="btn btn-success btn-sm">+</button>
+                  <button class="btn btn-adicionar">+</button>
                 </div>
 
               </div>
@@ -285,7 +287,7 @@
               <div class="row">
 
                 <div class="cardapio-info">
-                  <img src="../../assets/prato4.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 4">
+                  <img src="../../assets/prato4.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 4" loading="lazy">
                 </div>
 
                 <div class="cardapio-info">
@@ -307,7 +309,7 @@
 
                 <div class="cardapio-info">
                   <p>R$: 12,00</p>
-                  <button class="btn btn-success btn-sm">+</button>
+                  <button class="btn btn-adicionar">+</button>
                 </div>
 
               </div>
@@ -324,7 +326,7 @@
               <div class="row">
 
                 <div class="cardapio-info">
-                  <img src="../../assets/prato5.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 5">
+                  <img src="../../assets/prato5.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 5" loading="lazy">
                 </div>
 
                 <div class="cardapio-info">
@@ -346,7 +348,7 @@
 
                 <div class="cardapio-info">
                   <p>R$: 30,00</p>
-                  <button class="btn btn-success btn-sm">+</button>
+                  <button class="btn btn-adicionar">+</button>
                 </div>
 
               </div>
@@ -363,7 +365,7 @@
               <div class="row">
 
                 <div class="cardapio-info">
-                  <img src="../../assets/prato6.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 6">
+                  <img src="../../assets/prato6.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 6" loading="lazy">
                 </div>
 
                 <div class="cardapio-info">
@@ -385,7 +387,7 @@
 
                 <div class="cardapio-info">
                   <p>R$: 85,00</p>
-                  <button class="btn btn-success btn-sm">+</button>
+                  <button class="btn btn-adicionar">+</button>
                 </div>
 
               </div>
@@ -402,7 +404,7 @@
               <div class="row">
 
                 <div class="cardapio-info">
-                  <img src="../../assets/prato7.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 7">
+                  <img src="../../assets/prato7.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 7" loading="lazy">
                 </div>
 
                 <div class="cardapio-info">
@@ -424,7 +426,7 @@
 
                 <div class="cardapio-info">
                   <p>R$: 78,00</p>
-                  <button class="btn btn-success btn-sm">+</button>
+                  <button class="btn btn-adicionar">+</button>
                 </div>
 
               </div>
@@ -441,7 +443,7 @@
               <div class="row">
 
                 <div class="cardapio-info">
-                  <img src="../../assets/prato8.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 8">
+                  <img src="../../assets/prato8.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 8" loading="lazy">
                 </div>
 
                 <div class="cardapio-info">
@@ -463,7 +465,7 @@
 
                 <div class="cardapio-info">
                   <p>R$: 50,00</p>
-                  <button class="btn btn-success btn-sm">+</button>
+                  <button class="btn btn-adicionar">+</button>
                 </div>
 
               </div>
@@ -480,7 +482,7 @@
               <div class="row">
 
                 <div class="cardapio-info">
-                  <img src="../../assets/prato9.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 9">
+                  <img src="../../assets/prato9.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 9" loading="lazy">
                 </div>
 
                 <div class="cardapio-info">
@@ -502,7 +504,7 @@
 
                 <div class="cardapio-info">
                   <p>R$: 20,00</p>
-                  <button class="btn btn-success btn-sm">+</button>
+                  <button class="btn btn-adicionar">+</button>
                 </div>
 
               </div>

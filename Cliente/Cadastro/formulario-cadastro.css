@@ -7,11 +7,13 @@
     padding: 30px 35px;
 }
 
-.card-login h2{
+.titulo-form{
     color: #000;
     font-weight: 800; /*Peso da fonte, grossevidade*/
     margin: 0;
     margin-bottom: 0.5em;
+    position: flex;
+    text-align: center;
 }
 
 .form-cadastro hr{
@@ -43,11 +45,6 @@
     box-shadow: 0px 10px 40px #00000056; /*Uma sombra indo apenas no eixo y para baixo com um blur*/
     outline: none; /*Retira uma caixa de seleção*/
     box-sizing: border-box; /*Cria um colisor para o elemento não ultrapassar os limites da div*/
-}
-
-.titulo-form{
-    position: flex;
-    text-align: center;
 }
 
 .text-field label{

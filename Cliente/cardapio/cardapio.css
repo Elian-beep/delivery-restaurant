@@ -16,9 +16,10 @@
     justify-content: center;
 }
 
-.cardapio-item img{
-    width: 100px;
-    height: 80px;
+
+.cardapio-info img{
+    width: 200px;
+    height: 150px;
 }
 
 .cardapio-info{
@@ -26,10 +27,32 @@
     color: #351700;                            /*Centraliza os elementos ao lado do outro*/
 }
 
+.btn-adicionar{
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-weight: 800;
+    letter-spacing: 3px; /*Aplica um espaçamento entre o texto*/
+    color: #151515;
+    background: #bf8c56;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #000; /*O 4º valor é um "spreadding" */
+}
+
 @media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
-    .cardapio-item img{
+    .cardapio-info img{
         width: 100px;
-        height: 75px;
+        height: 80px;
+    }
+
+    .cardapio-info h5{
+        font-size: 13pt;
+    }
+
+    .cardapio-info p{
+        font-size: 12pt;
     }
 
     #cardapio-items .acompanhamento-desktop{/*Exibindo o botão dos complementos*/
