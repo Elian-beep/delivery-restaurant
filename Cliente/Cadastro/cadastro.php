@@ -23,7 +23,6 @@
   <!-- CSS DO FORMULARIO DE CADASTRO -->
   <link rel="stylesheet" href="formulario-cadastro.css">
 
-
   <title>Churrascaria Delivery</title>
 </head>
 
@@ -42,7 +41,7 @@
 
   <!-- INICIO: FORMULARIO DE CADASTRO -->
   <div class="container">
-    <form action="../cardapio/cardapio.php" class="form-cadastro">
+    <form action="../cardapio/cardapio.php" class="form-cadastro needs-validation" novalidate>
       <div class="col-12">
         <div class="row">
 
@@ -56,28 +55,40 @@
               <!-- NOME -->
               <label class="form-label">Nome e Sobrenome <span class="font-color-C01">*</span></label>
               <input type="text" required>
+              <div class="invalid-feedback">
+                Por favor, digite seu nome e sobrenome.
+              </div>
             </div>
 
             <div class="mb-3 text-field">
               <!-- TELEFONE -->
               <label class="form-label">Telefone <span class="font-color-C01">*</span></label>
               <input type="text" required>
+              <div class="invalid-feedback">
+                Por favor, digite seu número de telefone.
+              </div>
             </div>
 
             <div class="mb-3 text-field">
               <!-- EMAIL -->
               <label class="form-label">E-mail</label>
-              <input type="email">
+              <input type="email" placeholder="Seu melhor email">
             </div>
 
             <div class="row">
               <!-- SENHA -->
               <label class="form-label">Senha <span class="font-color-C01">*</span></label>
               <div class="col text-field">
-                <input type="password" aria-label="First name" required>
+                <input type="password" aria-label="First name" placeholder="Uma senha de até 5 dígitos" required>
+                <div class="invalid-feedback">
+                  Por favor, crie uma senha de até 5 dígitos.
+                </div>
               </div>
               <div class="col text-field">
-                <input type="password" aria-label="Last name" required>
+                <input type="password" aria-label="Last name" placeholder="Confirme sua senha" required>
+                <div class="invalid-feedback">
+                  Repita sua senha.
+                </div>
               </div>
             </div>
           </div>
@@ -92,12 +103,18 @@
               <!-- BAIRRO -->
               <label class="form-label">Bairro <span class="font-color-C01">*</span></label>
               <input type="text" required>
+              <div class="invalid-feedback">
+                Por favor, informe seu bairro.
+              </div>
             </div>
 
             <div class="mb-3 text-field">
               <!-- RUA -->
               <label class="form-label">Rua <span class="font-color-C01">*</span></label>
               <input type="text" required>
+              <div class="invalid-feedback">
+                Por favor, informe sua rua.
+              </div>
             </div>
 
             <!-- NÚMERO E COMPLEMENTO -->
@@ -106,6 +123,9 @@
                 <div class="col-3 text-field">
                   <label class="form-label">Número <span class="font-color-C01">*</span></label>
                   <input type="number" required>
+                  <div class="invalid-feedback">
+                    Por favor, informe o número da sua casa.
+                  </div>
                 </div>
                 <div class="col-9 text-field">
                   <label class="form-label">Complemento</label>
@@ -115,7 +135,7 @@
             </div>
 
             <div class="col-12 mt-2">
-              <button class="btn btn-cadastrar">Cadastrar</button>
+              <button class="btn btn-cadastrar" type="submit">Cadastrar</button>
             </div>
           </div>
 
@@ -139,10 +159,7 @@
 
         <!-- INICIO: sessao do titulio -->
         <div class="sessao-part sessao-1">
-          <p class="title-session">
-            Churrascaria
-            Delivery
-          </p>
+          <p class="title-session">Churrascaria Delivery</p>
           <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="40" x="0px" y="0px" class="sessao-1" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
             <g>
               <path d="M14,4c-0.6,0-1,0.4-1,1v22.1c0,1.6,1.3,2.9,2.9,2.9c0.8,0,1.6-0.4,2.2-1c0.5-0.6,0.8-1.4,0.7-2.2l-0.5-5c-0.1-0.8,0.4-1.6,1.1-1.9c0.4-0.2,0.6-0.5,0.6-0.9v-9C20,6.7,17.3,4,14,4z" />
@@ -204,6 +221,29 @@
       </center>
     </div>
   </div><!-- FIM: FOOTER -->
+
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+      'use strict'
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function(form) {
+          form.addEventListener('submit', function(event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+  </script>
 
 </body>
 

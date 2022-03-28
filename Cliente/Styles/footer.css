@@ -25,11 +25,19 @@
 
 .title-session{
     font-weight: 700;
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
     #footer{
         padding: 28px 12px;
+    }
+
+    .sessao-1 p{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     #footer .sessoes-footer{ /*As sessoes em coluna do footer*/
