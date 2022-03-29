@@ -28,6 +28,8 @@
   <link rel="stylesheet" href="cardapio.css">
   <!-- CSS DO FOOTER -->
   <link rel="stylesheet" href="../Styles/footer.css">
+  <!-- JS DO BOTÃO DE MEUS PEDIDOS -->
+  <link rel="stylesheet" href="../Styles/footer.css">
 
 
   <title>Churrascaria Delivery</title>
@@ -143,11 +145,9 @@
 
         <div class="col-md-4 ms-auto">
           <!-- botão da lista de pedidos -->
-          <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button class="btn btn-outline-primary" id="btn-pedidos" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Meus pedidos
           </button>
-
-
         </div>
 
       </div>
@@ -219,9 +219,11 @@
                       Complemento
                     </button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                      </p>
+                      <div class="container">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <p class="acompanhamento-desktop">
@@ -258,9 +260,11 @@
                       Complemento
                     </button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                      </p>
+                      <div class="container">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <p class="acompanhamento-desktop">
@@ -297,9 +301,11 @@
                       Complemento
                     </button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                      </p>
+                      <div class="container">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <p class="acompanhamento-desktop">
@@ -336,9 +342,11 @@
                       Complemento
                     </button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                      </p>
+                      <div class="container">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <p class="acompanhamento-desktop">
@@ -375,9 +383,11 @@
                       Complemento
                     </button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                      </p>
+                      <div class="container">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <p class="acompanhamento-desktop">
@@ -414,9 +424,11 @@
                       Complemento
                     </button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                      </p>
+                      <div class="container">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <p class="acompanhamento-desktop">
@@ -453,9 +465,11 @@
                       Complemento
                     </button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                      </p>
+                      <div class="container">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <p class="acompanhamento-desktop">
@@ -492,9 +506,11 @@
                       Complemento
                     </button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                      </p>
+                      <div class="container">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <p class="acompanhamento-desktop">

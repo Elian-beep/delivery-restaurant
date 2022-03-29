@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="titulos.css">
   <!-- CSS DO FORMULARIO DE CADASTRO -->
   <link rel="stylesheet" href="formulario-cadastro.css">
+  <!-- CSS DA VISIBILIDADE DE CAMPO -->
+  <link rel="stylesheet" href="visibilidade-campo.css">
 
   <title>Churrascaria Delivery</title>
 </head>
@@ -33,15 +35,12 @@
 
     <h1>Cadastre-se aqui</h1>
     <p>Crie um cadastro para salvar suas informações e facilitar na hora do pedido.</p>
+    <p>Os campos que contém <span class="font-color-C01">*</span> devem ser preenchidos para a validação do formulário.</p>
   </div><!-- FIM: TITULOS INICIAIS -->
-
-  <div class="container font-color-B01">
-    <p>Os campos que contém <span class="font-color-C01">*</span> devem ser preenchidos para a validação do cadastro.</p>
-  </div>
 
   <!-- INICIO: FORMULARIO DE CADASTRO -->
   <div class="container">
-    <form action="../cardapio/cardapio.php" class="form-cadastro needs-validation" novalidate>
+    <form action="../cardapio/cardapio.php" name="formclient" class="form-cadastro needs-validation" novalidate>
       <div class="col-12">
         <div class="row">
 
@@ -77,15 +76,16 @@
 
             <div class="row">
               <!-- SENHA -->
-              <label class="form-label">Senha <span class="font-color-C01">*</span></label>
               <div class="col text-field">
-                <input type="password" aria-label="First name" placeholder="Uma senha de até 5 dígitos" required>
+                <label class="form-label">Senha <span class="font-color-C01">*</span></label>
+                <input type="password" class="pass-visibility" aria-label="First name" name="senha" placeholder="Uma senha de até 5 dígitos" required>
                 <div class="invalid-feedback">
                   Por favor, crie uma senha de até 5 dígitos.
                 </div>
               </div>
               <div class="col text-field">
-                <input type="password" aria-label="Last name" placeholder="Confirme sua senha" required>
+                <label class="form-label">Exibir: <img class="icon-visibility btn-visibility" src="../../assets/eye-close.png" alt=""></label>
+                <input type="password" class="rep-pass-visibility" aria-label="Last name" name="rep_senha" placeholder="Confirme sua senha" required>
                 <div class="invalid-feedback">
                   Repita sua senha.
                 </div>
@@ -135,7 +135,7 @@
             </div>
 
             <div class="col-12 mt-2">
-              <button class="btn btn-cadastrar" type="submit">Cadastrar</button>
+              <button class="btn btn-cadastrar" onclick="return validar()" type="submit">Cadastrar</button>
             </div>
           </div>
 
@@ -222,28 +222,8 @@
     </div>
   </div><!-- FIM: FOOTER -->
 
-  <script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (function() {
-      'use strict'
-
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      var forms = document.querySelectorAll('.needs-validation')
-
-      // Loop over them and prevent submission
-      Array.prototype.slice.call(forms)
-        .forEach(function(form) {
-          form.addEventListener('submit', function(event) {
-            if (!form.checkValidity()) {
-              event.preventDefault()
-              event.stopPropagation()
-            }
-
-            form.classList.add('was-validated')
-          }, false)
-        })
-    })()
-  </script>
+  <!-- JS DA VALIDAÇÃO DE CADASTRO -->
+  <script src="validacao-form.js"></script>
 
 </body>
 
