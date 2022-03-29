@@ -55,7 +55,7 @@
               <label class="form-label">Nome e Sobrenome <span class="font-color-C01">*</span></label>
               <input type="text" required>
               <div class="invalid-feedback">
-                Por favor, digite seu nome e sobrenome.
+                Digite seu nome e sobrenome.
               </div>
             </div>
 
@@ -64,7 +64,7 @@
               <label class="form-label">Telefone <span class="font-color-C01">*</span></label>
               <input type="text" required>
               <div class="invalid-feedback">
-                Por favor, digite seu número de telefone.
+                Digite seu número de telefone.
               </div>
             </div>
 
@@ -78,14 +78,14 @@
               <!-- SENHA -->
               <div class="col text-field">
                 <label class="form-label">Senha <span class="font-color-C01">*</span></label>
-                <input type="password" class="pass-visibility" aria-label="First name" name="senha" placeholder="Uma senha de até 5 dígitos" required>
+                <input type="password" class="pass-visibility" aria-label="First name" name="senha" placeholder="Uma senha de até 5 dígitos" required minlength="3" maxlength="6">
                 <div class="invalid-feedback">
-                  Por favor, crie uma senha de até 5 dígitos.
+                  Crie uma senha de 3-6 dígitos.
                 </div>
               </div>
               <div class="col text-field">
                 <label class="form-label">Exibir: <img class="icon-visibility btn-visibility" src="../../assets/eye-close.png" alt=""></label>
-                <input type="password" class="rep-pass-visibility" aria-label="Last name" name="rep_senha" placeholder="Confirme sua senha" required>
+                <input type="password" class="rep-pass-visibility" aria-label="Last name" name="rep_senha" placeholder="Confirme sua senha" required minlength="3" maxlength="6">
                 <div class="invalid-feedback">
                   Repita sua senha.
                 </div>
@@ -104,7 +104,7 @@
               <label class="form-label">Bairro <span class="font-color-C01">*</span></label>
               <input type="text" required>
               <div class="invalid-feedback">
-                Por favor, informe seu bairro.
+                Informe seu bairro.
               </div>
             </div>
 
@@ -113,7 +113,7 @@
               <label class="form-label">Rua <span class="font-color-C01">*</span></label>
               <input type="text" required>
               <div class="invalid-feedback">
-                Por favor, informe sua rua.
+                Informe sua rua.
               </div>
             </div>
 
@@ -122,9 +122,9 @@
               <div class="row">
                 <div class="col-3 text-field">
                   <label class="form-label">Número <span class="font-color-C01">*</span></label>
-                  <input type="number" required>
+                  <input type="text" required>
                   <div class="invalid-feedback">
-                    Por favor, informe o número da sua casa.
+                    Informe o número da sua casa.
                   </div>
                 </div>
                 <div class="col-9 text-field">

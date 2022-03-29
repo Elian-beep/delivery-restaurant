@@ -135,7 +135,6 @@
   <div class="container" id="cab-cardapio">
     <center>
       <div class="row">
-
         <div class="col-md-4"></div>
 
         <div class="col-md-4">
@@ -192,7 +191,7 @@
 
                 <div class="cardapio-info">
                   <p>R$: 65,00</p>
-                  <button class="btn btn-adicionar">+</button>
+                  <button class="btn btn-adicionar" id="liveToastBtn">+</button>
                 </div>
 
               </div>
@@ -658,6 +657,17 @@
       </div>
     </div>
   </div><!-- FIM: MODAL DA LISTA DE PEDIDOS -->
+
+
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-body">
+        Seu pedido foi adicionado em Meus Pedidos.
+      </div>
+    </div>
+  </div>
+
+  <script src="btn-pedidos.js"></script>
 
 
 </body>
