@@ -1,9 +1,6 @@
-var toastTrigger = document.getElementById('liveToastBtn')
-var toastLiveExample = document.getElementById('liveToast')
-if (toastTrigger) {
-  toastTrigger.addEventListener('click', function () {
-    var toast = new bootstrap.Toast(toastLiveExample)
+btn = document.querySelector('.btn-adicionar');
+const circulo_vermelho = document.querySelector('.alert-circle');
 
-    toast.show()
-  })
+btn.onclick = () => {
+  circulo_vermelho.style.display = "block";
 }

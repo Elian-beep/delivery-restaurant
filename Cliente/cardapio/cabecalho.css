@@ -23,6 +23,10 @@
     margin-bottom: 0;
 }
 
+#btn-pedidos span{
+    display: none;
+}
+
 @media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
     #cab-cardapio .title{
         margin-bottom: 1em;

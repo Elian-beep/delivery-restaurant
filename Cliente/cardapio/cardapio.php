@@ -144,8 +144,9 @@
 
         <div class="col-md-4 ms-auto">
           <!-- botão da lista de pedidos -->
-          <button class="btn btn-outline-primary" id="btn-pedidos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button class="btn btn-outline-primary position-relative" id="btn-pedidos" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Meus pedidos
+            <span class="alert-circle position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle"></span>
           </button>
         </div>
 
@@ -191,7 +192,7 @@
 
                 <div class="cardapio-info">
                   <p>R$: 65,00</p>
-                  <button class="btn btn-adicionar" id="liveToastBtn">+</button>
+                  <button class="btn btn-adicionar">+</button>
                 </div>
 
               </div>

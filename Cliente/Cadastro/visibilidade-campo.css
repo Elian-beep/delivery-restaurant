@@ -3,3 +3,9 @@
     width: 30px;
     height: 30px;
 }
+
+.icon-visibility{                        /* Posicionamento do icone de visibilidade do campo de senha */
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
