@@ -84,7 +84,7 @@
         <div class="modal-body">
           <div class="container">
             <form action="EsqueciSenha/nova-senha.php" class="form-validacao">
-              <input type="text" class="form-control input-text" required>
+              <input type="email" class="form-control input-text" required>
               <input type="submit" name="btn-validar-login" id="" class="btn btn-outline-warning input-button">
             </form>
           </div>

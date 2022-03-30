@@ -17,15 +17,15 @@
   <!-- CSS MAIN -->
   <link rel="stylesheet" href="../Styles/main.css">
   <!-- CSS DO NAVBAR -->
-  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="../Styles/navbar.css">
   <!-- CSS DO SLIDER -->
-  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="../Styles/slider.css">
   <!-- CSS DO CABEÇALHO -->
-  <link rel="stylesheet" href="cabecalho.css">
+  <link rel="stylesheet" href="../Styles/cabecalho.css">
   <!-- CSS DA AREA SCROLL DO CARDAPIO -->
-  <link rel="stylesheet" href="area-cardapio-scroll.css">
+  <link rel="stylesheet" href="../Styles/area-cardapio-scroll.css">
   <!-- CSS DO CARDAPIO -->
-  <link rel="stylesheet" href="cardapio.css">
+  <link rel="stylesheet" href="../Styles/cardapio.css">
   <!-- CSS DO FOOTER -->
   <link rel="stylesheet" href="../Styles/footer.css">
   <!-- JS DO BOTÃO DE MEUS PEDIDOS -->
@@ -650,8 +650,8 @@
           <p>
             Total: R$ 142,00
           </p>
-          <form action="">
-            <button type="button" class="btn btn-primary">Fechar Pedido</button>
+          <form action="../PedidoFechado/pedido-fechado.php">
+            <button type="input" class="btn btn-primary">Fechar Pedido</button>
           </form>
         </div>
 

@@ -26,11 +26,11 @@ informado será gerado, para a segunrança na recuperação de senha.
     <!-- CSS DO FOOTER -->
     <link rel="stylesheet" href="../Styles/footer.css">
     <!-- CSS DOS TITULOS -->
-    <link rel="stylesheet" href="../Cadastro/titulos.css">
+    <link rel="stylesheet" href="../Styles/titulos.css">
     <!-- CSS DO FORMULARIO DE CADASTRO -->
-    <link rel="stylesheet" href="../Cadastro/formulario-cadastro.css">
+    <link rel="stylesheet" href="../Styles/formulario-cadastro.css">
     <!-- CSS DA VISIBILIDADE DE CAMPO -->
-    <link rel="stylesheet" href="../Cadastro/visibilidade-campo.css">
+    <link rel="stylesheet" href="../Styles/visibilidade-campo.css">
 
     <title>Churrascaria Delivery</title>
 </head>

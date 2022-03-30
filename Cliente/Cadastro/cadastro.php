@@ -19,11 +19,11 @@
   <!-- CSS DO FOOTER -->
   <link rel="stylesheet" href="../Styles/footer.css">
   <!-- CSS DOS TITULOS -->
-  <link rel="stylesheet" href="titulos.css">
+  <link rel="stylesheet" href="../Styles/titulos.css">
   <!-- CSS DO FORMULARIO DE CADASTRO -->
-  <link rel="stylesheet" href="formulario-cadastro.css">
+  <link rel="stylesheet" href="../Styles/formulario-cadastro.css">
   <!-- CSS DA VISIBILIDADE DE CAMPO -->
-  <link rel="stylesheet" href="visibilidade-campo.css">
+  <link rel="stylesheet" href="../Styles/visibilidade-campo.css">
 
   <title>Churrascaria Delivery</title>
 </head>
