@@ -1,0 +1,19 @@
+.sub-pedidos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-pagamento{
+    display: flex;
+    justify-content: center;
+}
+
+.container-formas-pagaento{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-realizar-pedido{
+    display: flex;
+    justify-content: end;
+}

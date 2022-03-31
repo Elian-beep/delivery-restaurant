@@ -17,26 +17,25 @@
   <!-- CSS MAIN -->
   <link rel="stylesheet" href="../Styles/main.css">
   <!-- CSS DO NAVBAR -->
-  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="../Styles/navbar.css">
   <!-- CSS DO SLIDER -->
-  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="../Styles/slider.css">
   <!-- CSS DO CABEÇALHO -->
-  <link rel="stylesheet" href="cabecalho.css">
+  <link rel="stylesheet" href="../Styles/cabecalho.css">
   <!-- CSS DA AREA SCROLL DO CARDAPIO -->
-  <link rel="stylesheet" href="area-cardapio-scroll.css">
+  <link rel="stylesheet" href="../Styles/area-cardapio-scroll.css">
   <!-- CSS DO CARDAPIO -->
-  <link rel="stylesheet" href="cardapio.css">
+  <link rel="stylesheet" href="../Styles/cardapio.css">
   <!-- CSS DO FOOTER -->
   <link rel="stylesheet" href="../Styles/footer.css">
-  <!-- JS DO BOTÃO DE MEUS PEDIDOS -->
-  <link rel="stylesheet" href="../Styles/footer.css">
+  <!-- CSS DA SESSAO SUBNIVEL DA SESSAO DE PEDIDO FECHADO -->
+  <link rel="stylesheet" href="../Styles/sub-pedidos.css">
 
 
   <title>Churrascaria Delivery</title>
 </head>
 
 <body>
-
 
   <!-- INICIO: NAVBAR -->
   <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
@@ -63,7 +62,7 @@
         <!-- Item que será afetado pelo botão sanduiche -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page">Cardápio</a>
+            <a href="../cardapio/cardapio.php" class="nav-link active" aria-current="page">Cardápio</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Minha conta</a>
@@ -79,6 +78,203 @@
 
     </div>
   </nav> <!-- FIM: NAVBAR -->
+
+
+
+
+
+  <!-- INICIO: TITULO -->
+  <div class="contaienr titulo-central" align="center">
+    <h1>PEDIDO</h1>
+  </div><!-- FIM: TITULO -->
+
+  <!-- INICIO: LISTA DE PEDIDOS -->
+  <div class="container">
+
+    <div class="fundo-cardapio-scroll color-A01">
+      <div class="cardapio-scroll">
+
+        <!-- INICIO: items do pedido -->
+        <div id="cardapio-items">
+          <center>
+            <form action="#">
+              <div class="row">
+
+                <div class="cardapio-info">
+                  <img src="../../assets/prato1.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 1" loading="lazy">
+                </div>
+
+                <div class="cardapio-info">
+                  <h5>Filé Mignon</h5>
+                  <div class="dropdown acompanhamento-mobile">
+                    <button class="dropdown-toggle btn btn-outline-secondary btn-sm" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Complemento
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <div class="container">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="acompanhamento-desktop">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                  </p>
+                </div>
+
+                <div class="cardapio-info">
+                  <p>R$: 65,00</p>
+                  <button class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                </div>
+
+              </div>
+            </form>
+          </center>
+          <hr>
+
+        </div> <!-- FIM: items do cardapio -->
+
+        <!-- INICIO: items do pedido -->
+        <div id="cardapio-items">
+          <center>
+            <form action="#">
+              <div class="row">
+
+                <div class="cardapio-info">
+                  <img src="../../assets/prato1.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 1" loading="lazy">
+                </div>
+
+                <div class="cardapio-info">
+                  <h5>Filé Mignon</h5>
+                  <div class="dropdown acompanhamento-mobile">
+                    <button class="dropdown-toggle btn btn-outline-secondary btn-sm" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Complemento
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <div class="container">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="acompanhamento-desktop">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                  </p>
+                </div>
+
+                <div class="cardapio-info">
+                  <p>R$: 65,00</p>
+                  <button class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                </div>
+
+              </div>
+            </form>
+          </center>
+          <hr>
+
+        </div> <!-- FIM: items do cardapio -->
+
+        <!-- INICIO: items do pedido -->
+        <div id="cardapio-items">
+          <center>
+            <form action="#">
+              <div class="row">
+
+                <div class="cardapio-info">
+                  <img src="../../assets/prato4.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 4" loading="lazy">
+                </div>
+
+                <div class="cardapio-info">
+                  <h5>Misto</h5>
+                  <div class="dropdown acompanhamento-mobile">
+                    <button class="dropdown-toggle btn btn-outline-secondary btn-sm" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Complemento
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <div class="container">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="acompanhamento-desktop">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
+                  </p>
+                </div>
+
+                <div class="cardapio-info">
+                  <p>R$: 12,00</p>
+                  <button class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                </div>
+
+              </div>
+            </form>
+          </center>
+          <hr>
+
+        </div> <!-- FIM: items do cardapio -->
+
+
+      </div>
+    </div>
+
+  </div><!-- FIM: LISTA DE PEDIDOS -->
+
+
+  <!-- INICIO: SUB-SESSAO DA LISTA DE PEDIDOS -->
+  <div class="sub-pedidos">
+
+    <div class="total-pedido">
+      <p>
+        Total: R$ 142,00
+      </p>
+    </div>
+
+    <div class="btn-cancelar-pedido">
+      <a href="../cardapio/cardapio.php" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">CANCELAR</a>
+    </div>
+  </div><!-- FIM: SUB-SESSAO DA LISTA DE PEDIDOS -->
+  <hr>
+
+  <!-- INICIO: TITULO -->
+  <div class="mt-4 titulo-pagamento" >
+    <h5>FORMA DE PAGAMENTO</h5>
+  </div><!-- FIM: TITULO -->
+
+  <!-- INICIO: FORMAS DE PAGAMENTO -->
+  <div class="container-formas-pagaento">
+    <div class="pix">
+      PIX (CPF)<br>
+      (enviar durante o recebimento do pedido)
+      <p>
+        999.999.999-00:
+      </p>
+    </div>
+
+    <div class="dinheiro">
+      Dinheiro<br>
+      <label for="">Troco para: </label>
+      <input type="number" class="form-control">
+    </div>
+
+    <div class="cartao">
+    <input type="radio">  
+    Cartão<br>
+      <p>Taxa Crédito: R$ 0,50</p>
+    </div>
+  </div><!-- FIM: FORMAS DE PAGAMENTO -->
+
+  <div class=" container btn-realizar-pedido">
+    <a href="comprovante.php" class="btn btn-success">Realizar Pedido</a>
+  </div>
+
+
+
+
+
 
 
   <!-- INICIO: FOOTER -->
@@ -155,6 +351,34 @@
       </center>
     </div>
   </div><!-- FIM: FOOTER -->
+
+  <!-- INICIO: MODAL DE CONFIRMAÇÃO DE CANCELAMENTO DE PEDIDO -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Header Modal -->
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Dseja mesmo cancelar o pedido?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+          <p>
+            Todos os items do seu pedido serão perdidos.
+          </p>
+        </div>
+
+        <!-- Footer Modal -->
+        <div class="modal-footer">
+          <form action="../cardapio/cardapio.php">
+            <button type="input" class="btn btn-primary">Cancelar pedido</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div><!-- FIM: MODAL DE CONFIRMAÇÃO DE CANCELAMENTO DE PEDIDO -->
 
   <script src="btn-pedidos.js"></script>
 
