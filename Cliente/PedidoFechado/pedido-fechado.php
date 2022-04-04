@@ -18,18 +18,16 @@
   <link rel="stylesheet" href="../Styles/main.css">
   <!-- CSS DO NAVBAR -->
   <link rel="stylesheet" href="../Styles/navbar.css">
-  <!-- CSS DO SLIDER -->
-  <link rel="stylesheet" href="../Styles/slider.css">
   <!-- CSS DO CABEÇALHO -->
   <link rel="stylesheet" href="../Styles/cabecalho.css">
-  <!-- CSS DA AREA SCROLL DO CARDAPIO -->
-  <link rel="stylesheet" href="../Styles/area-cardapio-scroll.css">
   <!-- CSS DO CARDAPIO -->
   <link rel="stylesheet" href="../Styles/cardapio.css">
   <!-- CSS DO FOOTER -->
   <link rel="stylesheet" href="../Styles/footer.css">
   <!-- CSS DA SESSAO SUBNIVEL DA SESSAO DE PEDIDO FECHADO -->
   <link rel="stylesheet" href="../Styles/sub-pedidos.css">
+  <!-- CSS DA AREA DE SCROLL -->
+  <link rel="stylesheet" href="../Styles/area-cardapio-scroll.css">
 
 
   <title>Churrascaria Delivery</title>
@@ -67,8 +65,8 @@
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Minha conta</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a href="" class="dropdown-item">Alterar dados</a></li>
-              <li><a href="" class="dropdown-item">Ver minhas informações</a></li>
+              <li><a href="../Minha-conta/alterar.php" class="dropdown-item">Alterar dados</a></li>
+              <li><a href="../Minha-conta/consultar.php" class="dropdown-item">Ver minhas informações</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a href="" class="dropdown-item">Excluir minha conta</a></li>
             </ul>

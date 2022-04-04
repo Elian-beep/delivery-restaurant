@@ -17,3 +17,15 @@
     display: flex;
     justify-content: end;
 }
+
+@media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
+    .container-formas-pagaento{
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+    }
+
+    .container-formas-pagaento .cartao{
+        margin-top: 13px;
+    }
+}

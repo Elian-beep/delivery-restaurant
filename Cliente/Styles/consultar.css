@@ -1,0 +1,8 @@
+.blocos-visualizacao{
+    margin-top: 1em;
+}
+
+.blocos-visualizacao .info-comprovante{
+    display: flex;
+    justify-content: space-between;
+}

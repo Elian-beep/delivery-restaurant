@@ -68,8 +68,8 @@
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Minha conta</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a href="" class="dropdown-item">Alterar dados</a></li>
-              <li><a href="" class="dropdown-item">Ver minhas informações</a></li>
+              <li><a href="../Minha-conta/alterar.php" class="dropdown-item">Alterar dados</a></li>
+              <li><a href="../Minha-conta/consultar.php" class="dropdown-item">Ver minhas informações</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a href="" class="dropdown-item">Excluir minha conta</a></li>
             </ul>

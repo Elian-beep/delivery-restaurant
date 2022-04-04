@@ -28,7 +28,7 @@
 }
 
 .titulo-central{
-    margin-top: 7em;
+    margin-top: 8em;
 }
 
 @media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
