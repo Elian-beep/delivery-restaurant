@@ -1,6 +1,11 @@
 #footer{
     padding: 3em 2em;
     margin-top: 3em;
+    
+    /*
+    position: absolute;
+    bottom: 0;
+    */
 }
 
 .sessoes-footer{ /*As sessoes em coluna do footer*/

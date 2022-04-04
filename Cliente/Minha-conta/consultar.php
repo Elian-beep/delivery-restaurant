@@ -93,6 +93,7 @@
     <h1>Suas informações</h1>
   </div><!-- FIM: TITULO -->
 
+  <!-- INICIO: INFORMAÇÕES DO USUÁRIO -->
   <div class="container blocos-visualizacao">
     <div class="accordion">
 
@@ -148,39 +149,43 @@
         <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
           <div class="accordion-body">
 
+            <!-- Comprovante (1) -->
             <div class="alert alert-secondary info-comprovante" role="alert">
               <div>
                 Compra feita no dia <strong>dd/mm/aaaa</strong> no valor de <strong>R$ 00,00</strong>
               </div>
               <div>
-                <a href="#" class="btn btn-warning"><i class="bi bi-receipt"></i></a>
+                <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-receipt"></i></a>
               </div>
             </div>
 
+            <!-- Comprovante (2) -->
             <div class="alert alert-secondary info-comprovante" role="alert">
               <div>
                 Compra feita no dia <strong>dd/mm/aaaa</strong> no valor de <strong>R$ 00,00</strong>
               </div>
               <div>
-                <a href="#" class="btn btn-warning"><i class="bi bi-receipt"></i></a>
+                <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-receipt"></i></a>
               </div>
             </div>
 
+            <!-- Comprovante (3) -->
             <div class="alert alert-secondary info-comprovante" role="alert">
               <div>
                 Compra feita no dia <strong>dd/mm/aaaa</strong> no valor de <strong>R$ 00,00</strong>
               </div>
               <div>
-                <a href="#" class="btn btn-warning"><i class="bi bi-receipt"></i></a>
+                <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-receipt"></i></a>
               </div>
             </div>
 
+            <!-- Comprovante (4) -->
             <div class="alert alert-secondary info-comprovante" role="alert">
               <div>
                 Compra feita no dia <strong>dd/mm/aaaa</strong> no valor de <strong>R$ 00,00</strong>
               </div>
               <div>
-                <a href="#" class="btn btn-warning"><i class="bi bi-receipt"></i></a>
+                <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-receipt"></i></a>
               </div>
             </div>
 
@@ -189,7 +194,8 @@
       </div>
 
     </div>
-  </div>
+  </div><!-- FIM: INFORMAÇÕES DO USUÁRIO -->
+
 
   <!-- INICIO: FOOTER -->
   <div class="container-fluid color-A01" id="footer">
@@ -265,6 +271,41 @@
       </center>
     </div>
   </div><!-- FIM: FOOTER -->
+
+  <!-- INICIO: MODAL DO COMPROVANTE ESPECIFICO -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Header Modal -->
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Comprovante N° 234</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <!-- Body Modal -->
+        <div class="modal-body">
+
+          <div class="pedidos">
+            <p>Forma de pagamento: pix</p>
+            <p>Troco para: </p>
+            <p>Endereço escolhido: Bairro tal, Rua tal, n° 123</p>
+            <p>Data 03/04/2022</p>
+            <p>Hora: 10:21</p>
+          </div>
+
+        </div>
+
+        <!-- Footer Modal -->
+        <div class="modal-footer">
+          <p>
+            Total do pedido: R$ 142,00
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div><!-- FIM: MODAL DO COMPROVANTE ESPECIFICO -->
 
 
 </body>
