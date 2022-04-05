@@ -76,7 +76,7 @@
             <a href="#" class="nav-link">Pedir pelo Whatsapp</a>
           </li>
           <li class="nav-item">
-            <a href="../index.php" class="nav-link">Sair</a>
+            <a href="../../index.php" class="nav-link">Sair</a>
           </li>
         </ul>
       </div>
