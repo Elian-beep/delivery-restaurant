@@ -18,22 +18,25 @@
   <link rel="stylesheet" href="../Styles/main.css">
   <!-- CSS DO NAVBAR -->
   <link rel="stylesheet" href="../Styles/navbar.css">
+  <!-- CSS DO SLIDER -->
+  <link rel="stylesheet" href="../Styles/slider.css">
   <!-- CSS DO CABEÇALHO -->
   <link rel="stylesheet" href="../Styles/cabecalho.css">
+  <!-- CSS DA AREA SCROLL DO CARDAPIO -->
+  <link rel="stylesheet" href="../Styles/area-cardapio-scroll.css">
   <!-- CSS DO CARDAPIO -->
   <link rel="stylesheet" href="../Styles/cardapio.css">
   <!-- CSS DO FOOTER -->
   <link rel="stylesheet" href="../Styles/footer.css">
-  <!-- CSS DA SESSAO SUBNIVEL DA SESSAO DE PEDIDO FECHADO -->
-  <link rel="stylesheet" href="../Styles/sub-pedidos.css">
-  <!-- CSS DA AREA DE SCROLL -->
-  <link rel="stylesheet" href="../Styles/area-cardapio-scroll.css">
+  <!-- CSS GERAL DA ABA DE CONSULTAR DADOS -->
+  <link rel="stylesheet" href="../Styles/consultar.css">
 
 
   <title>Churrascaria Delivery</title>
 </head>
 
 <body>
+
 
   <!-- INICIO: NAVBAR -->
   <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
@@ -60,14 +63,16 @@
         <!-- Item que será afetado pelo botão sanduiche -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a href="../cardapio/cardapio.php" class="nav-link active" aria-current="page">Cardápio</a>
+            <a href="../cardapio/cardapio.html" class="nav-link" aria-current="page">Cardápio</a>
           </li>
           <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Minha conta</a>
+            <a href="#" class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Minha conta</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a href="../Minha-conta/alterar.php" class="dropdown-item">Alterar dados</a></li>
-              <li><a href="../Minha-conta/consultar.php" class="dropdown-item">Ver minhas informações</a></li>
-              <li><hr class="dropdown-divider"></li>
+              <li><a href="alterar.html" class="dropdown-item">Alterar dados</a></li>
+              <li><a href="#" class="dropdown-item">Ver minhas informações</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
               <li><a href="" class="dropdown-item">Excluir minha conta</a></li>
             </ul>
           </li>
@@ -75,7 +80,7 @@
             <a href="#" class="nav-link">Pedir pelo Whatsapp</a>
           </li>
           <li class="nav-item">
-            <a href="../index.php" class="nav-link">Sair</a>
+            <a href="../../index.html" class="nav-link">Sair</a>
           </li>
         </ul>
       </div>
@@ -83,202 +88,113 @@
     </div>
   </nav> <!-- FIM: NAVBAR -->
 
-
-
-
-
   <!-- INICIO: TITULO -->
   <div class="contaienr titulo-central" align="center">
-    <h1>PEDIDO</h1>
+    <h1>Suas informações</h1>
   </div><!-- FIM: TITULO -->
 
-  <!-- INICIO: LISTA DE PEDIDOS -->
-  <div class="container">
+  <!-- INICIO: INFORMAÇÕES DO USUÁRIO -->
+  <div class="container blocos-visualizacao">
+    <div class="accordion">
 
-    <div class="fundo-cardapio-scroll color-A01">
-      <div class="cardapio-scroll">
-
-        <!-- INICIO: items do pedido -->
-        <div id="cardapio-items">
-          <center>
-            <form action="#">
-              <div class="row">
-
-                <div class="cardapio-info">
-                  <img src="../../assets/prato1.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 1" loading="lazy">
-                </div>
-
-                <div class="cardapio-info">
-                  <h5>Filé Mignon</h5>
-                  <div class="dropdown acompanhamento-mobile">
-                    <button class="dropdown-toggle btn btn-outline-secondary btn-sm" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Complemento
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <div class="container">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="acompanhamento-desktop">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                  </p>
-                </div>
-
-                <div class="cardapio-info">
-                  <p>R$: 65,00</p>
-                  <button class="btn btn-danger"><i class="bi bi-trash"></i></button>
-                </div>
-
-              </div>
-            </form>
-          </center>
-          <hr>
-
-        </div> <!-- FIM: items do cardapio -->
-
-        <!-- INICIO: items do pedido -->
-        <div id="cardapio-items">
-          <center>
-            <form action="#">
-              <div class="row">
-
-                <div class="cardapio-info">
-                  <img src="../../assets/prato1.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 1" loading="lazy">
-                </div>
-
-                <div class="cardapio-info">
-                  <h5>Filé Mignon</h5>
-                  <div class="dropdown acompanhamento-mobile">
-                    <button class="dropdown-toggle btn btn-outline-secondary btn-sm" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Complemento
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <div class="container">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="acompanhamento-desktop">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                  </p>
-                </div>
-
-                <div class="cardapio-info">
-                  <p>R$: 65,00</p>
-                  <button class="btn btn-danger"><i class="bi bi-trash"></i></button>
-                </div>
-
-              </div>
-            </form>
-          </center>
-          <hr>
-
-        </div> <!-- FIM: items do cardapio -->
-
-        <!-- INICIO: items do pedido -->
-        <div id="cardapio-items">
-          <center>
-            <form action="#">
-              <div class="row">
-
-                <div class="cardapio-info">
-                  <img src="../../assets/prato4.jpg" class="img-thumbnail img-fluid" alt="Prato tipico 4" loading="lazy">
-                </div>
-
-                <div class="cardapio-info">
-                  <h5>Misto</h5>
-                  <div class="dropdown acompanhamento-mobile">
-                    <button class="dropdown-toggle btn btn-outline-secondary btn-sm" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Complemento
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <div class="container">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="acompanhamento-desktop">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim non totam ipsum incidunt eveniet!
-                  </p>
-                </div>
-
-                <div class="cardapio-info">
-                  <p>R$: 12,00</p>
-                  <button class="btn btn-danger"><i class="bi bi-trash"></i></button>
-                </div>
-
-              </div>
-            </form>
-          </center>
-          <hr>
-
-        </div> <!-- FIM: items do cardapio -->
-
-
+      <!-- Informações de usuario -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Dados de Usuário
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <div class="alert alert-warning" role="alert">
+              <h3>Nome do usuário</h3>
+              <p>
+                <strong>Telefone:</strong> 92 99123-4567<br>
+                <strong>E-mail:</strong> churracaria.delivery@email.com<br>
+                <strong>Senha:</strong> *********
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- Informações do endereço -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Endereço
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <div class="alert alert-warning" role="alert">
+              <p>
+                <strong>Bairro:</strong> Algum bairro ai<br>
+                <strong>Rua:</strong> Alguma rua ai<br>
+                <strong>Número:</strong> 658<br>
+                <strong>Complemento:</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comprovantes de pedidos -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Comprovantes de pedidos
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+
+            <!-- Comprovante (1) -->
+            <div class="alert alert-secondary info-comprovante" role="alert">
+              <div>
+                Compra feita no dia <strong>dd/mm/aaaa</strong> no valor de <strong>R$ 00,00</strong>
+              </div>
+              <div>
+                <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-receipt"></i></a>
+              </div>
+            </div>
+
+            <!-- Comprovante (2) -->
+            <div class="alert alert-secondary info-comprovante" role="alert">
+              <div>
+                Compra feita no dia <strong>dd/mm/aaaa</strong> no valor de <strong>R$ 00,00</strong>
+              </div>
+              <div>
+                <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-receipt"></i></a>
+              </div>
+            </div>
+
+            <!-- Comprovante (3) -->
+            <div class="alert alert-secondary info-comprovante" role="alert">
+              <div>
+                Compra feita no dia <strong>dd/mm/aaaa</strong> no valor de <strong>R$ 00,00</strong>
+              </div>
+              <div>
+                <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-receipt"></i></a>
+              </div>
+            </div>
+
+            <!-- Comprovante (4) -->
+            <div class="alert alert-secondary info-comprovante" role="alert">
+              <div>
+                Compra feita no dia <strong>dd/mm/aaaa</strong> no valor de <strong>R$ 00,00</strong>
+              </div>
+              <div>
+                <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-receipt"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
     </div>
-
-  </div><!-- FIM: LISTA DE PEDIDOS -->
-
-
-  <!-- INICIO: SUB-SESSAO DA LISTA DE PEDIDOS -->
-  <div class="sub-pedidos">
-
-    <div class="total-pedido">
-      <p>
-        Total: R$ 142,00
-      </p>
-    </div>
-
-    <div class="btn-cancelar-pedido">
-      <a href="../cardapio/cardapio.php" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">CANCELAR</a>
-    </div>
-  </div><!-- FIM: SUB-SESSAO DA LISTA DE PEDIDOS -->
-  <hr>
-
-  <!-- INICIO: TITULO -->
-  <div class="mt-4 titulo-pagamento" >
-    <h5>FORMA DE PAGAMENTO</h5>
-  </div><!-- FIM: TITULO -->
-
-  <!-- INICIO: FORMAS DE PAGAMENTO -->
-  <div class="container-formas-pagaento">
-    <div class="pix">
-      PIX (CPF)<br>
-      (enviar durante o recebimento do pedido)
-      <p>
-        999.999.999-00:
-      </p>
-    </div>
-
-    <div class="dinheiro">
-      Dinheiro<br>
-      <label for="">Troco para: </label>
-      <input type="number" class="form-control">
-    </div>
-
-    <div class="cartao">
-    <input type="radio">  
-    Cartão<br>
-      <p>Taxa Crédito: R$ 0,50</p>
-    </div>
-  </div><!-- FIM: FORMAS DE PAGAMENTO -->
-
-  <div class=" container btn-realizar-pedido">
-    <a href="comprovante.php" class="btn btn-success">Realizar Pedido</a>
-  </div>
-
-
-
-
-
+  </div><!-- FIM: INFORMAÇÕES DO USUÁRIO -->
 
 
   <!-- INICIO: FOOTER -->
@@ -356,35 +272,40 @@
     </div>
   </div><!-- FIM: FOOTER -->
 
-  <!-- INICIO: MODAL DE CONFIRMAÇÃO DE CANCELAMENTO DE PEDIDO -->
+  <!-- INICIO: MODAL DO COMPROVANTE ESPECIFICO -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
 
         <!-- Header Modal -->
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Dseja mesmo cancelar o pedido?</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Comprovante N° 234</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
 
+        <!-- Body Modal -->
         <div class="modal-body">
-          <p>
-            Todos os items do seu pedido serão perdidos.
-          </p>
+
+          <div class="pedidos">
+            <p>Forma de pagamento: pix</p>
+            <p>Troco para: </p>
+            <p>Endereço escolhido: Bairro tal, Rua tal, n° 123</p>
+            <p>Data 03/04/2022</p>
+            <p>Hora: 10:21</p>
+          </div>
+
         </div>
 
         <!-- Footer Modal -->
         <div class="modal-footer">
-          <form action="../cardapio/cardapio.php">
-            <button type="input" class="btn btn-primary">Cancelar pedido</button>
-          </form>
+          <p>
+            Total do pedido: R$ 142,00
+          </p>
         </div>
 
       </div>
     </div>
-  </div><!-- FIM: MODAL DE CONFIRMAÇÃO DE CANCELAMENTO DE PEDIDO -->
-
-  <script src="btn-pedidos.js"></script>
+  </div><!-- FIM: MODAL DO COMPROVANTE ESPECIFICO -->
 
 
 </body>
