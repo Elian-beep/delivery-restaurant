@@ -1,0 +1,31 @@
+.fundo-cardapio-scroll{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    margin-bottom: 1em;
+}
+
+.cardapio-scroll{
+    width: 95%;
+    height: 500px;
+    color: #424242;
+}
+
+.cardapio-scroll:-webkit-scrollbar{ /*Barrinha do scroolbar*/
+    border-radius: 8px;
+    background: #161616;
+}
+
+.cardapio-scroll:-webkit-scrollbar-thumb{
+    background: #ff0066;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
+    .cardapio-scroll{
+        height: 450px;
+    }
+}

@@ -1,0 +1,65 @@
+#footer{
+    padding: 3em 2em;
+    margin-top: 3em;
+}
+
+.sessoes-footer{ /*As sessoes em coluna do footer*/
+    display: flex;
+}
+
+.sessao-part{ /*Partições das sessoes*/
+    flex: 1;
+}
+
+.sessao-1{
+    fill: black;
+    padding: 0;
+    height: 3em;
+    width: 4em;
+}
+
+.sessao-2{
+    border-right: 1px solid #bf8c56;
+    border-left: 1px solid #bf8c56;
+}
+
+.title-session{
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
+    #footer{
+        padding: 28px 12px;
+    }
+
+    #footer .sessoes-footer{ /*As sessoes em coluna do footer*/
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer .sessao-1{
+        margin-top: 0;
+    }
+    #footer .sessao-1 svg{
+        margin-top: 0;
+    }
+
+    #footer .sessao-2{
+        border-top: 1px solid #bf8c56;
+        border-bottom: 1px solid #bf8c56;
+
+        border-right: none;
+        border-left: none;
+    }
+
+    #footer .sessao-2 span{
+        display: none;
+    }
+
+    #footer .sessao-2 button{
+        margin: 10px;
+        padding: 0;
+        border: none;
+    }
+}

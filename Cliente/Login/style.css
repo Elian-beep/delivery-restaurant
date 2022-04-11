@@ -1,0 +1,177 @@
+body *{
+    box-sizing: border-box;
+}
+
+.main-login{ /*Container geral da minha tela de login*/
+    width: 100vw; /*vw é referente ao tamanho horizontal da viewport (tela)*/
+    height: 100vh; /*vw é referente ao tamanho vertical da viewport (tela)*/
+    background-color: #351700;
+    display: flex; /*Faz com que suas div filhos fiquem lado a lado*/
+    justify-content: center; /*Centraliza as div filho no centro no eixo x*/
+    align-items: center; /*Centraliza as div filho no centro no eixo y*/
+}
+
+.left-login{ /*Container da esquerda*/
+    width: 50vw; /*Ocupar metade da tela horizontal*/
+    height: 100vh; /*Ocupar toda a tela vertical*/
+    display: flex; /*Faz com que suas div filhos fiquem lado a lado*/
+    justify-content: center; /*Centraliza as div filho no centro no eixo x*/
+    align-items: center; /*Centraliza as div filho no centro no eixo y*/
+    flex-direction: column; /*Os elementos irão ficar lado a lado na vertical (um em cima do outro)*/
+}
+
+.left-login h1{
+    color: #F2F2F2;
+    font-size: 3vw;
+}
+
+.left-login-image{
+    width: 35vw;
+}
+
+.left-login-image path{
+    fill: #F2F2F2;
+}
+
+.right-login{ /*Card da direita*/
+    width: 50vw; /*Ocupar metade da tela horizontal*/
+    height: 100vh; /*Ocupar toda a tela vertical*/
+    display: flex; /*Faz com que suas div filhos fiquem lado a lado*/
+    justify-content: center; /*Centraliza as div filho no centro no eixo x*/
+    align-items: center; /*Centraliza as div filho no centro no eixo y*/
+}
+
+.card-login{ /*Card do formulario de login*/
+    width: 60%; /*Utilizando 60% da div em que o elemento se encontra (60% do 50vh)*/
+    display: flex; /*Faz com que suas div filhos fiquem lado a lado*/
+    justify-content: center; /*Centraliza as div filho no centro no eixo x*/
+    align-items: center; /*Centraliza as div filho no centro no eixo y*/
+    flex-direction: column; /*Os elementos irão ficar lado a lado na vertical (um em cima do outro)*/
+    padding: 30px 35px; /*Aplica bordas internas ao componente e não fora*/
+    background: #F7BE81;
+    
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056; /*Uma sombra indo apenas no eixo y para baixo com um blur*/
+}
+
+.card-login h1{
+    color: #000;
+    font-weight: 800; /*Peso da fonte, grossevidade*/
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.links-off{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.7em;
+}
+
+.card-login a{
+    text-decoration: none;
+    color: #F2F2F2;
+    margin-bottom: 0.6em;
+}
+
+.card-login a:hover{
+    text-decoration: none;
+    color: #424242;
+    margin-bottom: 10px;
+}
+
+.text-field{ /*Componentes de campo do formulario*/
+    width: 100%;
+    display: flex;
+    flex-direction: column; /*Ele inverte os valores de justify-content (passar a ser y) e align-items (passa a ser x)*/
+    align-items: flex-start; /*Posiciona no começo do eixo x*/
+    justify-content: center;
+    /* margin: 10px 0px; Aplica uma margem externa apenas no eixo y */
+    margin-bottom: 0.6em;
+}
+
+.text-field input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #351700;
+    color: #F7F8E0;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056; /*Uma sombra indo apenas no eixo y para baixo com um blur*/
+    outline: none; /*Retira uma caixa de seleção*/
+    box-sizing: border-box; /*Cria um colisor para o elemento não ultrapassar os limites da div*/
+}
+
+.text-field label{
+    color: #000;
+    margin-bottom: 10px; /*Margem externa de 10px*/
+}
+
+.text-field input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 5px 5px 0.6em 5px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-weight: 800;
+    letter-spacing: 3px; /*Aplica um espaçamento entre o texto*/
+    color: #151515;
+    background: #F2F2F2;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #000; /*O 4º valor é um "spreadding" */
+}
+
+.btn-login:hover{
+    background: #f8d5af;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 950px){ /*Adicionar os elementos enquanto a tela for menor que 950px (tela de tablet)*/
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
+    .main-login{ /*Posiciona os lados em uma coluna*/
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-login h1{
+        display: none; /*Retira o elemento*/
+    }
+
+    /*Os lados login devem ocupar mais espaço na tela de telefone*/
+    .left-login{
+        width: 100%;
+        height: auto;
+        margin-top: -100px;
+    }
+
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .left-login-image{
+        width: 50vw;
+        padding: 0;
+        margin: 0 0 0 0;
+        margin-top: 0.1em;
+    }
+
+    .card-login{
+        width: 90%;
+    }
+}

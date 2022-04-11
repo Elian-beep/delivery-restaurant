@@ -1,0 +1,57 @@
+#navbar{
+    border-bottom: 1px solid #bf8c56; /*Aplica uma borda em baixo*/
+    background: #f8d5af;
+}
+
+#navbar a{
+    color: #351700;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+#navbar a:hover{ 
+    color: #bf8c56;
+ }
+
+#navbar a.active{
+    border-bottom: 1px solid #351700; /*Aplica uma leve borda no link ativo*/
+}
+
+#navbar a.active:hover{
+    border-bottom: 1px solid #bf8c56;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+
+.logo-restaurante path{
+    fill: #351700;
+}
+
+.logo-restaurante:hover path{
+    fill: #bf8c56;
+}
+
+.navbar-brand span{
+    font-weight: 700; /*Negrito*/
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+#navbar-items .navbar-nav{ /*Afasta os intens e centraliza os itens flex na horizontal*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item{
+    margin: 0 1em; /*0 vertical e 1em na horizontal*/
+}
+
+@media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
+    .navbar-brand span{
+        font-size: 1em;
+    }
+}
