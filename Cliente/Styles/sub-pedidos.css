@@ -18,6 +18,18 @@
     justify-content: end;
 }
 
+.total-pedido{
+    border: 2px solid rgba(11, 162, 209, 0.908);
+    margin: 0;
+    border-radius: 5px;
+}
+
+.total-pedido p{
+    padding: 4px;
+    margin: 0;
+    margin-top: 1px;
+}
+
 @media only screen and (max-width: 600px){ /*Adicionar os elementos enquanto a tela for menor que 600px (tela de celular)*/
     .container-formas-pagaento{
         display: flex;

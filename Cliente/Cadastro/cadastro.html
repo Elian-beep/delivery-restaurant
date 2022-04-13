@@ -62,7 +62,7 @@
             <div class="mb-3 text-field">
               <!-- TELEFONE -->
               <label class="form-label">Telefone <span class="font-color-C01">*</span></label>
-              <input type="text" required>
+              <input type="text" required onkeypress="onlynumber()">
               <div class="invalid-feedback">
                 Digite seu número de telefone.
               </div>
@@ -122,7 +122,7 @@
               <div class="row">
                 <div class="col-3 text-field">
                   <label class="form-label">Número <span class="font-color-C01">*</span></label>
-                  <input type="text" required>
+                  <input type="text" required onkeypress="onlynumber()">
                   <div class="invalid-feedback">
                     Informe o número da sua casa.
                   </div>
@@ -135,7 +135,7 @@
             </div>
 
             <div class="col-12 mt-2">
-              <button class="btn btn-cadastrar" onclick="return validar()" type="submit">Cadastrar</button>
+              <button class="btn btn-cadastrar" onclick="validar()" type="submit">Cadastrar</button>
             </div>
           </div>
 
@@ -224,6 +224,7 @@
 
   <!-- JS DA VALIDAÇÃO DE CADASTRO -->
   <script src="validacao-form.js"></script>
+  <script src="../Scripts/onlyNumbers.js"></script>
 
 </body>
 
