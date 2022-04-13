@@ -10,6 +10,11 @@
     display: block;
 }
 
+#cab-cardapio .label-small{
+    font-size: 10pt;
+    margin-top: 2px;
+}
+
 .cardapio-item{
     display: flex;                          /*Permite os itens ficarem um ao lado do outro*/
     align-items: center;
