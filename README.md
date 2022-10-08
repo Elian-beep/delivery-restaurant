@@ -7,6 +7,6 @@ Sistema não funcional de uma plataforma para um restaurante local para praticas
 | :sparkles: Nome        | **Delivery Restaurant**
 | :label: Tecnologias | bootstrap, javascript, html, css
 | :rocket: URL         | delivery-restaurant.vercel.app/
-| :fire: Fonte     | Projeto pessoal
+| :fire: Fonte     | PROJETO PESSOAL
 
 Projeto feito em HTML, CSS e Bootstrap para simular um sistema delivery de uma churrascaria (sem mecanica de pagamento por dados de cartão de crédito)
